@@ -1,0 +1,141 @@
+body {
+  font-family: "Copperplate Gothic Bold", sans-serif;
+  font-size: 16px;
+  background-image: url("images/1305167.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background {
+  opacity: 0.8;
+  filter: blur(2px);
+}
+
+.maison {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar li {
+    float: none;
+    text-align: center;
+  }
+
+  .navbar a {
+    padding: 10px 15px;
+  }
+
+  .maison {
+    margin-bottom: 10px;
+  }
+}
+
+body {
+  font-family: "Copperplate Gothic Bold";
+  color: #fff;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+.maison {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.maison h3 {
+  font-size: 30px;
+}
+
+.maison img {
+  width: 100px;
+}
+
+.maison p {
+  font-size: 18px;
+}
+
+.apropos {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.apropos h2 {
+  font-size: 40px;
+}
+
+.apropos p {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar li:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.bouton {
+  background-color: #fff;
+  color: #000;
+}
+
+.bouton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.maison:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
